@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"defer></script>
     <title>Cadastro de Usuario</title>
 </head>
 <body>
     <main>
+        <h1>TAREFAS</h1>
             <section>
                 <div>
                     <p>Endereço de Email</p>
-                    <input class="input" type="text">
+                    <input class="input" id="email" type="text">
                 </div>
                 <div>
                     <p>Senha do usuario</p>
-                    <input class="input" type="password">
+                    <input class="input" id="senha" type="password">
                 </div>
             </section>
-            <a href="./tarefas.html">
-                <button class="button-entrar">Entrar</button>
-            </a>
+            <!-- <a href=""> -->
+                <button class="button-entrar" onclick="validarLogin()">Entrar</button>
+            <!-- </a> -->
             <h2>Não tem conta?</h2>
             <a href="criarConta.html">
                 <button class="button-criar-conta">Criar Conta</button>

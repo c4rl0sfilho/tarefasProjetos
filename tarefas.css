@@ -6,21 +6,32 @@
 body{
     height: 100%;
     width: 100%;
+    background-color: #270641;
+
 }
 .container{
     width: 250px;
     height: 150px;
-    border: 2px solid #000;
+    border: 3px solid #fbcd75;
+    background-color: white;
+}
+header h1{
+    color: #fbcd75;
+    font-size: 3rem;;
 }
 header{
     height: 100%;
     width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
 }
 main{
     width: 80%;
     height: 100%;
     display: grid;
-    grid-template-columns: 45% 45%;
+    grid-template-columns: 30% 30% 30%;
     gap: 12px;
     padding: 5%;
 }
@@ -29,4 +40,15 @@ main{
     justify-content: center;
     align-items: center;
     padding-left: 2%;
+}
+button{
+    background-color: #fbcd75;
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    color: #270641;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
 }
