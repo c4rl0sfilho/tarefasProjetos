@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="criarConta.css">
+    <script src="app.js" defer></script>
     <title>Criar Conta</title>
 </head>
+
 <body>
     <header>
         <a href="index.html">
@@ -17,23 +20,24 @@
         <section>
             <div>
                 <p>Nome do usuario</p>
-                <input class="input" type="text">
+                <input class="input" type="text" id="nomeUsuario">
             </div>
             <div>
                 <p>Endereço de Email</p>
-                <input class="input" type="text">
+                <input class="input" type="text" id="emailUsuario">
             </div>
             <div>
                 <p>Senha</p>
-                <input class="input" type="password">
+                <input class="input" type="password" id="senhaUsuario">
             </div>
             <div>
                 <p>Confirmação de Senha</p>
-                <input class="input" type="password">
+                <input class="input" type="password" id="confirmacaoSenha">
             </div>
         </section>
-        <a href="">
-            <button class="botao-criar-conta">Criar Conta</button>
-        </a>
+        <button type="submit" id="teste" class="botao-criar-conta" >Criar Conta</button>
+    </main>
+
 </body>
+
 </html>
