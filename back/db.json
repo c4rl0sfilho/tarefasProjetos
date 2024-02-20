@@ -19,48 +19,17 @@
       "senha": "gabriel"
     },
     {
-      "nomeUser": "Vitor de Jesus",
-      "emailUser": "Vitor@teste.com",
-      "senhaUser": "12345",
+      "nome": "carlos",
+      "email": "carlos@gmail.com",
+      "senha": "carlos",
       "id": 4
     },
     {
-      "nomeUser": "inocente Picudo",
-      "emailUser": "pedro@sexo.com",
-      "senhaUser": "comiseucu",
+      "nome": "Rodrigo Garro",
+      "email": "Rodrigocomeporco@gmail.com",
+      "senha": "goldefalta",
       "id": 5
     }
   ],
-  "tarefas": [
-    {
-      "id": 1,
-      "descrição": "Limpar a Casa",
-      "dataConclusão": "31/01/2024",
-      "idUsuario": 1
-    },
-    {
-      "id": 2,
-      "descrição": "Aprender inglês",
-      "dataConclusão": "30/10/2024",
-      "idUsuario": 1
-    },
-    {
-      "id": 3,
-      "descrição": "Novo emprego",
-      "dataConclusão": "10/02/2024",
-      "idUsuario": 3
-    },
-    {
-      "id": 4,
-      "descrição": "Viajar",
-      "dataConclusão": "05/03/2024",
-      "idUsuario": 2
-    },
-    {
-      "id": 5,
-      "descrição": "Conhecer mais pessoas",
-      "dataConclusão": "20/05/2024",
-      "idUsuario": 3
-    }
-  ]
+  "tarefas": []
 }

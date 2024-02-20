@@ -17,7 +17,7 @@ body{
 }
 header h1{
     color: #fbcd75;
-    font-size: 3rem;;
+    font-size: 2.5rem;;
 }
 header{
     height: 100%;
@@ -41,7 +41,7 @@ main{
     align-items: center;
     padding-left: 2%;
 }
-button{
+header button{
     background-color: #fbcd75;
     width: 10rem;
     height: 2.5rem;
@@ -51,4 +51,51 @@ button{
     font-size: 20px;
     font-weight: bolder;
     cursor: pointer;
+}
+.acoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.button-acoes{
+    border: none;
+    background-color: transparent;
+}
+.info{
+    width: 400px;
+    height: 400px;
+    background-color: #270641;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #fbcd75 solid 1px;
+    gap: 1rem;
+    visibility: hidden;
+    /* justify-content:space-between ; */
+}
+.info h1{
+    color: #fbcd75;
+    /* margin-bottom: 40px; */
+}
+.info label{
+    color: #fff;
+}
+.input-descricao{
+    height: 50px;
+}
+.botao-concluir{
+    margin-top: 2rem;
+    background-color: #fbcd75;
+    width: 7rem;
+    height: 2rem;
+    border: none;
+    color: #270641;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.mostrar{
+    visibility: visible;
 }

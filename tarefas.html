@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="tarefas.css">
-    <script src="app.js"defer></script>
+    <script src="./app.js"defer></script>
     <title>Tarefas</title>
 </head>
 <body>
     <header>
-        <button onclick="CriarTarefa()">Adicionar Tarefa</button>
+        <button id="botao-adicionar-tarefa">Adicionar Tarefa</button>
         <h1>TAREFAS</h1>
+
     </header>
     <main>
         <div class="container">
@@ -18,15 +19,21 @@
             <p class="tarefa-descricao">Aqui vai a descrição de suas tarefas...</p>
             <p class="data-conclusao">30/01/2024</p>
             <div class="acoes">
-                <img src="./img/edit-svgrepo-com.svg" alt="Editar Tarefa">
-                <img src="./img/delete-svgrepo-com (1).svg" alt="Apagar Tarefa" onclick="deletarTarefa()">
+                    <img src="./img/editarIcon.svg" alt="Editar Tarefa">
+                    <img src="./img/excluirIcon.svg" alt="Apagar Tarefa" onclick="deletarTarefa()">
             </div>
         </div>
-        <div class="container">
-            <h1 class="tarefa-title">Titulo da tarefa</h1>
-            <p class="tarefa-descricao">Aqui vai a descrição de suas tarefas...</p>
-            <p class="data-conclusao">30/01/2024</p>
-        </div>
     </main>
+    <div class="info" id="info">
+        <h1>Adicionar Nova Tarefa</h1>
+        <label for="">Titulo Tarefa</label>
+        <input type="text" id="tarefa-title">
+        <label for="">Descrição da Tarefa</label>
+        <input type="text" class="input-descricao" id="tarefa-descricao">
+        <label for="">Data da Tarefa</label>
+        <input type="date" id="tarefa-data">
+
+        <button class="botao-concluir" id="botao-concluir">Concluir</button>
+    </div>
 </body>
 </html>
